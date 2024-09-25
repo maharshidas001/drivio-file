@@ -1,3 +1,4 @@
+import envConfig from "@/config/envConfig";
 import { Account, Client, ID } from "appwrite";
 
 class Auth_Appwrite {
