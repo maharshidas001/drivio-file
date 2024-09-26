@@ -1,7 +1,9 @@
-const MaxWidthWrapper = ({ children }) => {
+import { cn } from "@/lib/utils";
+
+const MaxWidthWrapper = ({ className, children }) => {
   return (
     <>
-      <div className="mx-auto max-w-screen-xl px-3 sm:px-6">
+      <div className={cn("mx-auto max-w-screen-xl px-3 sm:px-6", className)}>
         {children}
       </div>
     </>

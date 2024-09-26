@@ -24,12 +24,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div>
+        <main>
           <Header />
           <div className="w-full" style={{
             minHeight: 'calc(100vh - 48px)'
           }}>{children}</div>
-        </div>
+        </main>
       </body>
     </html>
   );
